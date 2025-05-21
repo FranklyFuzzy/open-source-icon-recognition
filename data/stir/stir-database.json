@@ -37,6 +37,16 @@
         "icon_path": "icons/slack.png"
       },
       {
+        "id": "shottr",
+        "name": "Shottr",
+        "category": "Screen capture",
+        "description": "Screenshotting tool",
+        "platforms": {
+          "windows": false,
+          "mac": true,
+          "linux": false
+        },
+      {
         "id": "dropbox",
         "name": "Dropbox",
         "category": "File Storage",
