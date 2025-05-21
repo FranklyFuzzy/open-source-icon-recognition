@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Source Icon Recognition</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><i class="fas fa-icons"></i> Open Source Icon Recognition</h1>
+            <p class="subtitle">A crowd-sourced database of application icons for system trays and browser extensions</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="stir">STIR</button>
+            <button class="tab-btn" data-tab="beir">BEIR</button>
+        </div>
+
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search for an application or extension...">
+            <div class="filter-container">
+                <label for="category-filter">Category:</label>
+                <select id="category-filter">
+                    <option value="all">All Categories</option>
+                </select>
+                
+                <div id="platform-filters" class="platform-filters">
+                    <span class="filter-label">Platforms:</span>
+                    <label><input type="checkbox" value="windows" checked> Windows</label>
+                    <label><input type="checkbox" value="mac" checked> Mac</label>
+                    <label><input type="checkbox" value="linux" checked> Linux</label>
+                </div>
+                
+                <div id="browser-filters" class="browser-filters" style="display: none;">
+                    <span class="filter-label">Browsers:</span>
+                    <label><input type="checkbox" value="chrome" checked> Chrome</label>
+                    <label><input type="checkbox" value="firefox" checked> Firefox</label>
+                </div>
+            </div>
+        </div>
+
+        <div id="stir-tab" class="tab-content active">
+            <h2>System Tray Icon Recognition (STIR)</h2>
+            <p>Icons found in the system tray/menu bar across Windows, Mac, and Linux</p>
+            
+            <div class="table-container">
+                <table id="stir-table">
+                    <thead>
+                        <tr>
+                            <th>Icon</th>
+                            <th>Name</th>
+                            <th>Category</th>
+                            <th>Windows</th>
+                            <th>Mac</th>
+                            <th>Linux</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- STIR icons will be dynamically populated here -->
+                    </tbody>
+                </table>
+                <div class="no-results" id="stir-no-results" style="display: none;">
+                    No icons match your search criteria
+                </div>
+            </div>
+        </div>
+
+        <div id="beir-tab" class="tab-content">
+            <h2>Browser Extension Icon Recognition (BEIR)</h2>
+            <p>Icons for browser extensions across popular browsers</p>
+            
+            <div class="table-container">
+                <table id="beir-table">
+                    <thead>
+                        <tr>
+                            <th>Icon</th>
+                            <th>Name</th>
+                            <th>Category</th>
+                            <th>Chrome</th>
+                            <th>Firefox</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- BEIR icons will be dynamically populated here -->
+                    </tbody>
+                </table>
+                <div class="no-results" id="beir-no-results" style="display: none;">
+                    No icons match your search criteria
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>
+                <a href="https://github.com/username/open-source-icon-recognition" target="_blank">
+                    <i class="fab fa-github"></i> Contribute on GitHub
+                </a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
