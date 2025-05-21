@@ -46,6 +46,9 @@
           "mac": true,
           "linux": false
         },
+        "icon_path": "icons/shottr.png"
+      },
+        },
       {
         "id": "dropbox",
         "name": "Dropbox",
