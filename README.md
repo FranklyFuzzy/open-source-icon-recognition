@@ -1,6 +1,6 @@
 # Open Source Icon Recognition
 
-A crowd-sourced database for recognizing application icons in system trays/menu bars and browser extensions.
+A crowd-sourced database for recognizing application icons in system trays/menu bars and browser extensions. See it in action [HERE](https://franklyfuzzy.github.io/open-source-icon-recognition/).
 
 ## Project Components
 
