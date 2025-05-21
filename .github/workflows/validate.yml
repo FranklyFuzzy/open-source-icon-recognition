@@ -1,0 +1,28 @@
+name: Validate Database and Icons
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18
+    
+    - name: Install ImageMagick
+      run: sudo apt-get update && sudo apt-get install -y imagemagick
+      
+    - name: Validate JSON databases
+      run: node .github/scripts/validate-json.js
+      
+    - name: Validate icons
+      run: node .github/scripts/validate-icons.js

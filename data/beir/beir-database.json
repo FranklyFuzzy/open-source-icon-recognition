@@ -1,0 +1,48 @@
+{
+    "icons": [
+      {
+        "id": "discord",
+        "name": "Discord",
+        "category": "Communication",
+        "description": "Discord integration for quick access to servers",
+        "browsers": {
+          "chrome": true,
+          "firefox": true
+        },
+        "icon_path": "icons/discord.png"
+      },
+      {
+        "id": "lastpass",
+        "name": "LastPass",
+        "category": "Security",
+        "description": "Password manager and secure vault",
+        "browsers": {
+          "chrome": true,
+          "firefox": true
+        },
+        "icon_path": "icons/lastpass.png"
+      },
+      {
+        "id": "grammarly",
+        "name": "Grammarly",
+        "category": "Productivity",
+        "description": "Grammar and spell checking tool",
+        "browsers": {
+          "chrome": true,
+          "firefox": true
+        },
+        "icon_path": "icons/grammarly.png"
+      },
+      {
+        "id": "adblock-plus",
+        "name": "AdBlock Plus",
+        "category": "Ad Blocking",
+        "description": "Block unwanted ads and pop-ups",
+        "browsers": {
+          "chrome": true,
+          "firefox": true
+        },
+        "icon_path": "icons/adblock-plus.png"
+      }
+    ]
+  }
