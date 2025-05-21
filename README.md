@@ -10,7 +10,7 @@ The project consists of two main components:
 A collection of system tray/menu bar icons across Windows, Mac, and Linux platforms.
 
 ### BEIR (Browser Extension Icon Recognition)
-A collection of browser extension icons across Chrome, Firefox, Edge, and other browsers.
+A collection of browser extension icons across Chrome, and Firefox.
 
 ## Purpose
 
