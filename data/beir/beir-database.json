@@ -43,6 +43,17 @@
           "firefox": true
         },
         "icon_path": "icons/adblock-plus.png"
+      },
+      {
+        "id": "downthemall!",
+        "name": "DownThemAll!s",
+        "category": "Ad Blocking",
+        "description": "Block unwanted ads and pop-ups",
+        "browsers": {
+          "chrome": true,
+          "firefox": true
+        },
+        "icon_path": "icons/downthemall!"
       }
     ]
   }
