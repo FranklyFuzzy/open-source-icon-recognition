@@ -47,8 +47,8 @@
       {
         "id": "downthemall!",
         "name": "DownThemAll!s",
-        "category": "Ad Blocking",
-        "description": "Block unwanted ads and pop-ups",
+        "category": "Utility",
+        "description": "Download utility",
         "browsers": {
           "chrome": false,
           "firefox": true
