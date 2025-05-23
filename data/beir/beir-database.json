@@ -50,7 +50,7 @@
         "category": "Ad Blocking",
         "description": "Block unwanted ads and pop-ups",
         "browsers": {
-          "chrome": true,
+          "chrome": false,
           "firefox": true
         },
         "icon_path": "icons/downthemall!"
