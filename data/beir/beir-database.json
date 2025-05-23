@@ -1,15 +1,15 @@
 {
     "icons": [
       {
-        "id": "discord",
-        "name": "Discord",
-        "category": "Communication",
-        "description": "Discord integration for quick access to servers",
+        "id": "tunnelbear",
+        "name": "Tunnelbear",
+        "category": "VPN",
+        "description": "Freemium VPN",
         "browsers": {
           "chrome": true,
           "firefox": true
         },
-        "icon_path": "icons/discord.png"
+        "icon_path": "icons/tunnelbear.png"
       },
       {
         "id": "lastpass",
